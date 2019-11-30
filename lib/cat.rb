@@ -7,7 +7,6 @@ def initialize(name, @owner)
   @name = name
   
   
-  Owner.new(@owner)
 
 end
 
