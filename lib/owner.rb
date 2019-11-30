@@ -27,7 +27,7 @@ def self.reset_all
 end
 
 def cats
-  Cat.all.select {|c| 
+  Cat.all.select {|c| cat.owner = self}
   
 
 
