@@ -43,8 +43,9 @@ end
  end
  
  def walk_dogs
-   self.dogs.each ||
- 
+   self.dogs.each do |d|
+     d.mood == "happy"
+   end
 end
 
 end
