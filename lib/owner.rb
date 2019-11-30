@@ -26,7 +26,8 @@ def self.reset_all
   @@all = []
 end
 
-def self.cats 
+def cats
+  
   
 
 
