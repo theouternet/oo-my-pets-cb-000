@@ -1,5 +1,4 @@
 class Dog
-  # code class Cat
 
 attr_accessor :mood, :owner
 attr_reader :name
@@ -18,6 +17,4 @@ def self.all
 end
 
 
-end
- here
 end
