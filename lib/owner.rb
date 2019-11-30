@@ -48,4 +48,10 @@ end
    end
 end
 
+ def feed_cats
+   self.cats.each do |c|
+     c.mood = "happy"
+   end
+end
+
 end
