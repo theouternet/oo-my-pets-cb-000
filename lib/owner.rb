@@ -27,7 +27,7 @@ def self.reset_all
 end
 
 def cats
-  Cat.all.select 
+  Cat.all.select |c| {
   
 
 
