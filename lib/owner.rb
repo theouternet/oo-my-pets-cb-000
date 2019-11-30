@@ -58,7 +58,9 @@ end
    self.dogs.each do |d|
      d.mood = "nervous"
    end
-   
+      self.cats.each do |c|
+     c.mood = "nervous"
+   end
 end
 
 end
