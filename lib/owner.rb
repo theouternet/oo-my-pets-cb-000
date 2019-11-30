@@ -54,4 +54,11 @@ end
    end
 end
 
+ def sell_pets
+   self.dogs.each do |d|
+     d.mood = "happy"
+   end
+   
+end
+
 end
